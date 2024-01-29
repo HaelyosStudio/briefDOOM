@@ -1,0 +1,11 @@
+@import url(./navbar.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
