@@ -1,0 +1,24 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15vw;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    margin-bottom: 10px;
+}
+
+.navBarLogo {
+    width: 175px;
+}
+
+.burgerButton {
+    background-color: transparent;
+}
+
+.burgerSpan {
+    background-color: #210b39;
+    width: 20px;
+    height: 2px;
+}
