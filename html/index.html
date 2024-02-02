@@ -4,16 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Isadora Digital</title>
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+    src="https://kit.fontawesome.com/fb6495d315.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
-    <h1>test</h1>
     <!-- Vidéo -->
-    <video autoplay="" muted="" loop class="test">
-      <source
+    <div class="introVideoBox">
+      <!-- NE PAS OUBLIER D'ENLEVER LE HIDDEN AVANT PUSH FINAL -->
+      <video autoplay="" muted="" loop class="introVideo hidden">
+        <source
         src="https://isadoradigitalagency.com/wp-content/themes/ida-2023/assets/videos/start-new.mp4"
         type="video/mp4"
-      />
-    </video>
+        />
+      </video>
+      
+      <!-- NE PAS OUBLIER D'ENLEVER LE HIDDEN AVANT PUSH FINAL -->
+      <button id="introButton" class="buttonSkip hidden" onclick="myFunction()">Skip the intro</button>
+    </div>
+    <header class="navBar">
+      <img src="/assets/IsadoraAgencyLogoPurple.png" alt="Isadora Agency Logo" class="navBarLogo">
+      <div class="burgerButton">
+        <span class="burgerSpan"></span>
+        <span class="burgerSpan"></span>
+        <span class="burgerSpan"></span>
+      </div>
+    </header>
+
+
+    <!-- Début Home -->
+<!--   <div class="home">
+    <div class="transparent">
+      <video autoplay="" muted="" loop class="videohome">
+        <source
+        src="https://isadoradigitalagency.com/wp-content/themes/ida-2023/assets/videos/end-new.mp4"
+        type="video/mp4"
+        />
+      </video>
+    </div>
+  </div> -->
+    <!-- Fin Home -->
+<!-- Début Slide 3-->
+<div class="wrapperSlide">
+  <img src="../assets/mobile-frame-new.webp">
+  <img class="screen" src="../assets/newscor-screen-329x581.jpg">
+</div>
+<!-- Fin Slide 3-->
+    <!-- Début Knowledges -->
+    <div class="knowledgeWrapper">
+      <div class="knowledgeSquare">
+      <h3 class="knowledgeMainTitle"> Our insights</h3>
+      </div>
+      <div class="knowledge">
+        <strong class="knowledgeTitle">Creating Effective Design Systems for Digital Products</strong>
+        <p class="knowledgeText">The more something does, the trickier it can be to define....</p>
+        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+      </div>
+      <div class="knowledge">
+        <strong class="knowledgeTitle">Dashboard Design for Data Visualization: Best Practices</strong>
+        <p class="knowledgeText">“The ability to simplify,” said artist Hans Hofmann, “means to eliminate...</p>
+        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+      </div>
+      <div class="knowledge">
+        <strong class="knowledgeTitle">The Importance of Iteration: Why Product Design Never Really Ends</strong>
+        <p class="knowledgeText">When is a process more than a process? Usually, when it...</p>
+        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+      </div>
+    </div>
+     <!-- Fin Knowledges -->
+     <!-- Début Footer -->
+     <div class="mainFooterBox">
+      <div class="topFooterBox">
+        <h3>
+          <em>Our Digital Agency Is Hiring!</em>
+          <span></span>
+        </h3>
+        <p>Looking to Expand <a href="">Our Team</a></p>
+      </div>
+      <div class="bottomFooterBox">
+        <div class="leftBottomBox">
+
+        </div>
+        <div class="rightBottomBox">
+          <p>© 2024 Isadora Agency. All Rights Reserved</p>
+          <a href="">- Careers</a>
+        </div>
+      </div>
+     </div>
+     <!-- Fin Footer -->
+<script src="/js/script.js"></script>
+<script src="/js/introVideo.js"></script>
   </body>
 </html>

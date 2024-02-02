@@ -1,0 +1,47 @@
+.knowledgeWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.knowledge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.knowledgeTitle{
+    color: #2f0d53;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.knowledgeText{
+color: #b0adb9;
+margin-bottom: 10px;
+}
+
+.knowledgeMainTitle{
+    width: 400px;
+    position: relative;
+    top: 60px;
+    left: -110px;
+    color: #2f0d53;
+    font-size: 70px;
+    margin-bottom: 60px;
+    font-weight: 900;
+}
+
+.knowledgeSquare{
+    height: 150px;
+    width: 150px;
+    color: white;
+    border: rgb(80, 182, 80) 10px solid;
+}
+

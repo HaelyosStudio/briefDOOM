@@ -1,0 +1,65 @@
+.mainFooterBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #210b39;
+    height: 50vh;
+}
+
+.topFooterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topFooterBox > h3 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    font-family: "CaslonGraphiqueEF",Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.topFooterBox > h3 > em {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.topFooterBox > p {
+    font-family: "CaslonGraphiqueEF",Arial,sans-serif;
+    color: white;
+    font-size: small;
+}
+
+.topFooterBox > p > a {
+    color: #01e471;
+    text-decoration: none;
+    font-size: small;
+}
+
+.bottomFooterBox {
+
+}
+
+.leftBottomBox {
+
+}
+
+.rightBottomBox {
+
+}
+
+.rightBottomBox > p, a {
+    display: inline-flex;
+    font-family: "CaslonGraphiqueEF",Arial,sans-serif;
+    color: #565169;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: xx-small;
+}

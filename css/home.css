@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 0;
+}
+
+.transparent {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  z-index: 0;
+}
+
+.videoHome {
+  z-index: -100;
+}
